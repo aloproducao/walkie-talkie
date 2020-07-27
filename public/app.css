@@ -1,3 +1,5 @@
+
+
 body {
     position: absolute;
     top: 0;
@@ -6,7 +8,8 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    ;
+      font-family: Helvetica;
+    
 }
 
 .walkie-talkie-button {
@@ -14,6 +17,8 @@ body {
     height: 300px;
     width: 400px;
     margin: auto;
+    color: black;
+font-size: 40px;
 }
 
 .volume-meter {
