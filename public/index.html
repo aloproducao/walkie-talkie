@@ -2,7 +2,8 @@
 
 <head>
     <link rel="stylesheet" href="app.css"></link>
-    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+      
     <script src="WalkieTalkie.js"></script>
     <script type="text/javascript">
     function initAudio() {
@@ -52,17 +53,20 @@
 
 <body>
     <button id="walkie-talkie-handle" class="walkie-talkie-button" disabled="true">
-        Talk
+        comunicação
     </button>
-    <label>
-        On
-        <input id="on-switch" type="radio" name="switch"/>
+   <center>
+    <label style=" font-size: 30px ;  color: #cd1630;"   >
+        ON
+        <input id="on-switch" type="radio"  name="switch"/>
     </label>
-    <label>
-        Off
+    <label style=" font-size: 30px ;  color: blue;" >
+        OFF
         <input id="off-switch" type="radio" name="switch" checked="true" />
     </label>
     <div class="volume-meter"></div>
+   </center>
+   
 </body>
 
 </html>
